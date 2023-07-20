@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    /* position: relative; */
+}
+.wrapper{
+
+width: 95%;
+
+position: absolute;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+
+padding: 30px;
+
+text-align: center;
+}
+.logo{
+
+width: 10%;
+}
+.menu{
+
+width: 50%;
+
+display: flex;
+
+justify-content: end;
+
+list-style: none;
+}
+.menu ul{
+    
+display: flex;
+    
+list-style: none;
+    
+justify-content: end;
+    
+text-transform: capitalize;
+}
+.menu ul li{
+
+}
+.menu ul li a{
+    
+text-decoration: none;
+    
+padding: 20px;
+    
+color: #ffff;
+}
+.menu ul li a button{
+    
+padding: 7px 20px;
+    
+background: transparent;
+    
+border: 1px solid #ffff;
+    
+border-radius: 5px;
+    
+color: #ffff;
+}
+.midtext{
+    
+position: absolute;
+    
+margin-top: 50%;
+    
+margin-left: 50%;
+    
+transform: translate(-50%, -50%);
+    
+text-align: center;
+    
+margin-top: 310px;
+    
+/* padding: 50px; */
+}
+.midtext h2{
+    
+color: #ffff;
+    
+font-size: 30px;
+    
+/* padding: -5px 0; */
+}
+.midtext h1{
+    
+color: #ffff;
+    
+font-size: 90px;
+}
+.midtext p{
+    
+color: #ffff;
+    
+letter-spacing: 1px;
+}
+.midtext button{
+    
+color: black;
+    
+background-color: yellow;
+    
+padding: 23px;
+    
+text-transform: uppercase;
+    
+border-radius: 6px;
+    
+margin-top: 33px;
+    
+cursor: pointer;
+}
+.midtext button:hover{
+    background-color: transparent;
+}
+.service{
+
+/* display: flex; */
+
+text-align: center;
+
+margin-bottom: 50px;
+}
+.text{
+
+/* text-align: center; */
+}
+.text h1{
+    text-align: center;
+    margin: 49px 0;
+    color: #757272;
+    font-size: 50px;
+}
+.text span{
+    display: block;
+    height: 4px;
+    width: 160px;
+    background: red;
+    /* text-align: center; */
+}
+.feature{margin-bottom: 50px;}
+.feature_picture{
+
+width: 85%;
+
+display: flex;
+
+margin: auto;
+
+/* padding: 20px; */
+}
+.item{
+    
+/* padding-right: 5px; */
+}
+.feature_picture img{
+    
+padding-right: 5px;
+}
+.feature_picture h1{
+    color: #8f9999;
+    padding: 20px 0;
+    /* letter-spacing: 1px; */
+    text-transform: capitalize;
+}
+.feature_picture p{
+    
+color: #958e8e;
+}
